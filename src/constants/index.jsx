@@ -96,7 +96,7 @@ export const SKILLS = [
     experience: "1 year",
   },
   {
-    icon: <SiAstro className="text-4xl text-black lg:text-5xl" />,
+    icon: <SiAstro className="text-4xl text-white lg:text-5xl" />,
     name: "Astro.js",
     experience: "1 year",
   },
