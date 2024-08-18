@@ -67,7 +67,7 @@ const Navbar = () => {
         <div className="rounded-lg backdrop-blur-md lg:hidden">
           <div className="flex items-center justify-between">
             <div>
-              <a href="#">
+              <a href="#" onClick={(e) => backToTop(e)}>
                 <img
                   src={logo}
                   alt="logo"

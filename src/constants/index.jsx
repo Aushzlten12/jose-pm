@@ -43,7 +43,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website built with React and Tailwind CSS to showcase my skills, projects, and contact information.",
     image: projectImage1,
-    githubLink: "https://github.com/user/personal-portfolio",
+    githubLink: "https://github.com/Aushzlten12/jose-pm",
   },
   {
     id: 2,
@@ -51,7 +51,7 @@ export const PROJECTS = [
     description:
       "An clone of Airbnb using Next.js, TailwindCSS, Prisma and Stripe.",
     image: projectImage2,
-    githubLink: "https://github.com/user/ecommerce-platform",
+    githubLink: "https://github.com/Aushzlten12/Airbnb",
   },
   {
     id: 3,
@@ -59,14 +59,14 @@ export const PROJECTS = [
     description:
       "An app to rent cars using Next.js, TailwindCSS, Clerk and Stripe.",
     image: projectImage3,
-    githubLink: "https://github.com/user/task-management-tool",
+    githubLink: "https://github.com/Aushzlten12/renta-carros",
   },
   {
     id: 4,
-    name: "Hidratate Game",
-    description: "A ODT game using Pygame",
+    name: "Mundo Quechua",
+    description: "An app to learn Quechua of interactive and funny way.",
     image: projectImage4,
-    githubLink: "",
+    githubLink: "https://github.com/Aushzlten12/MundoQuechua",
   },
   {
     id: 5,
@@ -74,7 +74,7 @@ export const PROJECTS = [
     description:
       "Spotify Clone using Clear Architecture in Flutter and Firebase",
     image: projectImage5,
-    githubLink: "",
+    githubLink: "https://github.com/Aushzlten12/spotify-android",
   },
 ];
 
@@ -97,7 +97,7 @@ export const SKILLS = [
   },
   {
     icon: <SiAstro className="text-4xl text-black lg:text-5xl" />,
-    name: "Next.js",
+    name: "Astro.js",
     experience: "1 year",
   },
   {
@@ -164,23 +164,23 @@ export const EDUCATION = [
 
 export const SOCIAL_MEDIA_LINKS = [
   {
-    href: "https://x.com/",
+    href: "https://x.com/auzhlten12",
     icon: <FaDiscord fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://x.com/",
+    href: "https://discord.com/users/1018786280236134420",
     icon: <FaXTwitter fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://github.com/",
+    href: "https://github.com/Aushzlten12",
     icon: <FaGithub fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://www.linkedin.com/",
+    href: "https://www.linkedin.com/in/josepachasm/",
     icon: <FaLinkedin fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "",
+    href: "https://leetcode.com/u/Aushzlten12/",
     icon: <SiLeetcode fontSize={25} className="hover:opacity-80" />,
   },
 ];
