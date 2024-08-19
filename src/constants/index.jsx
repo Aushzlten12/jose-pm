@@ -165,11 +165,11 @@ export const EDUCATION = [
 export const SOCIAL_MEDIA_LINKS = [
   {
     href: "https://x.com/auzhlten12",
-    icon: <FaDiscord fontSize={25} className="hover:opacity-80" />,
+    icon: <FaXTwitter fontSize={25} className="hover:opacity-80" />,
   },
   {
     href: "https://discord.com/users/1018786280236134420",
-    icon: <FaXTwitter fontSize={25} className="hover:opacity-80" />,
+    icon: <FaDiscord fontSize={25} className="hover:opacity-80" />,
   },
   {
     href: "https://github.com/Aushzlten12",
