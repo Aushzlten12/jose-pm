@@ -4,7 +4,6 @@ import projectImage1 from "../assets/project1.jpeg";
 import projectImage2 from "../assets/project2.jpeg";
 import projectImage3 from "../assets/project3.jpeg";
 import projectImage4 from "../assets/project4.jpeg";
-import projectImage5 from "../assets/project5.jpeg";
 
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
@@ -63,18 +62,11 @@ export const PROJECTS = [
   },
   {
     id: 4,
-    name: "Mundo Quechua",
-    description: "An app to learn Quechua of interactive and funny way.",
-    image: projectImage4,
-    githubLink: "https://github.com/Aushzlten12/MundoQuechua",
-  },
-  {
-    id: 5,
-    name: "Spotify Clone",
+    name: "Mundo Latam",
     description:
-      "Spotify Clone using Clear Architecture in Flutter and Firebase",
-    image: projectImage5,
-    githubLink: "https://github.com/Aushzlten12/spotify-android",
+      "An app to learn Quechua, Spanish and Portuguese of interactive and funny way.",
+    image: projectImage4,
+    githubLink: "https://github.com/Aushzlten12/MundoLatam",
   },
 ];
 
