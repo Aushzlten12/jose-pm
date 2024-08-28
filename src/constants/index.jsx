@@ -4,7 +4,7 @@ import projectImage1 from "../assets/project1.jpeg";
 import projectImage2 from "../assets/project2.jpeg";
 import projectImage3 from "../assets/project3.jpeg";
 import projectImage4 from "../assets/project4.jpeg";
-
+import projectImage5 from "../assets/project5.jpeg";
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
 import {
@@ -67,6 +67,13 @@ export const PROJECTS = [
       "An app to learn Quechua, Spanish and Portuguese of interactive and funny way.",
     image: projectImage4,
     githubLink: "https://github.com/Aushzlten12/MundoLatam",
+  },
+  {
+    id: 5,
+    name: "Board App",
+    description: "An app to draw, paint, etc in group o independently.",
+    image: projectImage5,
+    githubLink: "https://github.com/Aushzlten12/board-app",
   },
 ];
 
