@@ -16,7 +16,7 @@ import {
   SiAstro,
   SiRubyonrails,
 } from "react-icons/si";
-import { FaNodeJs, FaPython } from "react-icons/fa";
+import { FaJava, FaNodeJs, FaPython } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 
 export const NAVIGATION_LINKS = [
@@ -48,7 +48,7 @@ export const PROJECTS = [
     id: 2,
     name: "Airbnb Clone",
     description:
-      "An clone of Airbnb using Next.js, TailwindCSS, Prisma and Stripe.",
+      "An clone of Airbnb using Next.js, TailwindCSS, Prisma and Stripe. An user can upload a determinate place and other users can book the place",
     image: projectImage2,
     githubLink: "https://github.com/Aushzlten12/Airbnb",
   },
@@ -56,30 +56,31 @@ export const PROJECTS = [
     id: 3,
     name: "Rent Cars",
     description:
-      "An app to rent cars using Next.js, TailwindCSS, Clerk and Stripe.",
+      "An app to rent cars using Next.js, TailwindCSS, Clerk, It's a simple app because an admin registers cars, these cars can rent by users in determinate dates. Now, it's incomplete because I need to add a main page, also a functionality to determinate if a user is admin or not",
     image: projectImage3,
     githubLink: "https://github.com/Aushzlten12/renta-carros",
   },
   {
     id: 4,
-    name: "Mundo Latam",
+    name: "Train books in txt format in a distributed System",
     description:
-      "An app to learn Quechua, Spanish and Portuguese of interactive and funny way.",
+      "It's a project that consist in two types of clients and one server, also this server is a master of multiply nodes. The clients and server is in Java, and Nodes is in Python. The book client sends one book to server using sockets, the server splits the book in 'n' parts and send the parts to 'n' nodes using sockets and convert the data in JSON, the nodes train these parts to get models and send the generated models to server in JSON format, then The Model Client sends an input and choice a trained model to obtain a prediction, the server receives the input and the selected model and the server sends the data in JSON format to the nodes to obtain the prediction, once the nodes sends predictions to server. The server sends predictions to Model Client to show it",
     image: projectImage4,
-    githubLink: "https://github.com/Aushzlten12/MundoLatam",
+    githubLink: "https://github.com/Aushzlten12/TrainBooksSocketJavaPython",
   },
   {
     id: 5,
-    name: "Board App",
-    description: "An app to draw, paint, etc in group o independently.",
+    name: "Music App using only Javascript and CSS",
+    description:
+      "An app using Spotify API, only using Javascript (Express) and CSS for styles. The tracks, albums, etc is in Spotify API.",
     image: projectImage5,
-    githubLink: "https://github.com/Aushzlten12/board-app",
+    githubLink: "https://github.com/Aushzlten12/Musify",
   },
 ];
 
 export const BIO = [
   "Jose PM is currently pursuing a Bachelor of Science in Computer Science at the Universidad Nacional de Ingenieria, with a keen focus on becoming a FullStack developer. Throughout his academic journey, Jose has actively sought to deepen his knowledge by attending specialized courses and independently developing personal applications that showcase his growing expertise",
-  "His university coursework has provided him with hands-on experience in various domains, including Artificial Intelligence, Software Development, and Computer Graphics, where he has successfully completed projects that demonstrate his proficiency in both front-end and back-end technologies",
+  "His university coursework has provided him with hands-on experience in various domains, including Artificial Intelligence, Human-Computer Interaction ,Software Development, and Computer Graphics, Distributed System and Networks where he has successfully completed projects that demonstrate his proficiency in both front-end and back-end technologies",
   "Jose PM is passionate about creating efficient and user-friendly applications and is continuously expanding his skill set to stay at the forefront of the ever-evolving tech industry.",
 ];
 
@@ -115,9 +116,9 @@ export const SKILLS = [
     experience: "1+ year",
   },
   {
-    icon: <SiFlutter className="text-4xl text-sky-300 lg:text-5xl" />,
-    name: "Flutter",
-    experience: "0.5 year",
+    icon: <FaJava className="text-4xl text-sky-300 lg:text-5xl" />,
+    name: "Java",
+    experience: "1 year",
   },
   {
     icon: <SiTailwindcss className="text-4xl text-sky-400 lg:text-5xl" />,
