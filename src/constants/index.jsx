@@ -64,7 +64,7 @@ export const PROJECTS = [
     id: 4,
     name: "Train books in txt format in a distributed System",
     description:
-      "It's a project that consist in two types of clients and one server, also this server is a master of multiply nodes. The clients and server is in Java, and Nodes is in Python. The book client sends one book to server using sockets, the server splits the book in 'n' parts and send the parts to 'n' nodes using sockets and convert the data in JSON, the nodes train these parts to get models and send the generated models to server in JSON format, then The Model Client sends an input and choice a trained model to obtain a prediction, the server receives the input and the selected model and the server sends the data in JSON format to the nodes to obtain the prediction, once the nodes sends predictions to server. The server sends predictions to Model Client to show it",
+      "It's a project that consist in two types of clients and one server, also this server is a master of multiply nodes. The clients and server is in Java, and Nodes is in Python. The clients are Book Client to sends books and Models Clients to get a prediction, Server to receive Books and send parts to nodes, and Nodes to get models and predictions",
     image: projectImage4,
     githubLink: "https://github.com/Aushzlten12/TrainBooksSocketJavaPython",
   },
